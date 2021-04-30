@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff00ddff"
+    tools:context=".chooser">
+
+    <Button
+        android:id="@+id/thry"
+        android:layout_width="211dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="548dp"
+        android:text="THEORY"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:backgroundTint="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/ua"
+        android:layout_width="211dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="144dp"
+        android:text="USE ALGORITHMS"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:backgroundTint="@android:color/darker_gray" />
+</RelativeLayout>

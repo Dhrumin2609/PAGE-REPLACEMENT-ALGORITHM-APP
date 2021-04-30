@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.osalgorithms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OSALGORITHMS">
+        <activity android:name=".optalgo" />
+        <activity android:name=".lrualgo" />
+        <activity android:name=".fifoalgo" />
+        <activity android:name=".optdefact" />
+        <activity android:name=".lrudefact" />
+        <activity android:name=".fifodefact" />
+        <activity android:name=".thrypage" />
+        <activity android:name=".uapage" />
+        <activity android:name=".chooser" />
+        <activity android:name=".Algotype" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
